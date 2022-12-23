@@ -1,0 +1,64 @@
+@use '@carbon/react';
+@use '@carbon/react/scss/theme' as *;
+@use '@carbon/react/scss/spacing' as *;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.components-container {
+  font: 24px bold;
+  padding: 1rem;
+}
+
+.cds--tile--selectable {
+  margin-top: 1rem;
+}
+
+.components-tiles {
+  max-width: fit-content;
+  padding-left: 30%;
+}
+
+.cds--tile-content {
+  display: grid;
+  font: 20px bold;
+
+  img {
+    padding-top: 1rem;
+  }
+}
+
+.components-btn {
+  float: right;
+  margin: 1rem;
+}
+
+.Pictures {
+  display: grid;
+  margin: 10px;
+
+  img {
+    margin: 5px;
+  }
+}
+
+.Board {
+  width: 20rem;
+  min-height: 50rem;
+  border: 2px solid black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  display: grid;
+  padding-left: 5rem;
+}
